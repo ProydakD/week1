@@ -1,7 +1,8 @@
 {
   "headers":{
      "/":{
-       "X-Author":"proydak"
+       "X-Author":"proydak",
+       "Access-Control-Allow-Origin":"*"
      }
   }
 }
