@@ -1,5 +1,7 @@
 {
   "headers":{
-     "X-Author":"proydak"
+     "/":{
+       "X-Author":"proydak"
+     }
   }
 }
