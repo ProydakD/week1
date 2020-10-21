@@ -3,6 +3,14 @@
      "/":{
        "X-Author":"proydak",
        "Access-Control-Allow-Origin":"*"
-     }
+     },
+    "/login/":{
+      "Content-Type":"text/plain",
+      "charset":"UTF-8"
+    },
+    "/sample/":{
+      "Content-Type":"text/plain",
+      "charset":"UTF-8"
+    }
   }
 }
