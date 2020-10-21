@@ -9,7 +9,7 @@
       "charset":"UTF-8"
     },
     "/sample/":{
-      "Content-Type":"text/plain",
+      "Content-Type":"plain/text",
       "charset":"UTF-8"
     }
   }
