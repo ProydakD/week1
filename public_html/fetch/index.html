@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<input type="text" id="inp">
+<button id="bt"></button>
+<script>
+    document.querySelector('#bt').addEventListener('click',async function (e) {
+        e.preventDefault();
+        const inp = document.querySelector('#inp');
+        const text = await fetch(inp.value).then(resp=>resp.text()).catch(e=>e.message);
+        inp.value = text;
+    })
+</script>
+</body>
+</html>

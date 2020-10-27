@@ -1,0 +1,5 @@
+async function task(x){
+ return await new Promise ((res,rej)=>{
+        return x<18?res('yes'):rej('no')
+    })
+}
