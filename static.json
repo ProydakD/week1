@@ -9,11 +9,10 @@
       "charset":"UTF-8"
     },
     "/sample/":{
-      "Content-Type":"plain/text",
       "charset":"UTF-8"
     },
     "/fetch/":{
-      "Content-Type":"plain/text",
+      "Content-Type":"text/html",
       "charset":"UTF-8"
     }
   }
