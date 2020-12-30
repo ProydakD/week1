@@ -1,6 +1,6 @@
 <?php
-echo json.decode([
-    "result"=>true,
-    "message"=>"Test"
-])
+echo json_encode([
+        "result"=>true,
+        "message"=>"Test"
+    ]);
 die();
